@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Pod
 metadata: 
   name: pod
-  namespace: wordpress
+  namespace: flux-system
 spec:
   containers: 
   - image: nginx
